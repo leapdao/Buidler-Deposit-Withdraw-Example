@@ -3,8 +3,6 @@ pragma solidity ^0.5.0;
 import { IERC20 } from "./ERC20.interface.sol";
 import { ICrossDomainMessenger } from "@eth-optimism/rollup-contracts/build/contracts/bridge/CrossDomainMessenger.interface.sol";
 
-import { console } from "@nomiclabs/buidler/console.sol";
-
 contract L1ERC20Deposit {
     ICrossDomainMessenger L1CrossDomainMessenger;
     address L2ERC20Address;
