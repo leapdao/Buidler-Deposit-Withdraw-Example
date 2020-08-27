@@ -5,7 +5,7 @@ import { ethers } from '@nomiclabs/buidler'
 import { Signer, ContractFactory, Contract } from 'ethers'
 import { getContractFactory } from '@eth-optimism/rollup-contracts'
 
-describe('EOA Message Passing', () => {
+describe('EOA L1 <-> L2 Message Passing', () => {
   let L1Wallet: Signer
   let L2Wallet: Signer
   before(async () => {
