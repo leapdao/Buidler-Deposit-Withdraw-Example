@@ -4,7 +4,6 @@ import { expect } from './setup'
 import { ethers } from '@nomiclabs/buidler'
 import { Signer, ContractFactory, Contract } from 'ethers'
 import { getContractFactory } from '@eth-optimism/rollup-contracts'
-import { ZERO_ADDRESS } from '../../../../../optimism-monorepo/node_modules/@eth-optimism/core-utils/build'
 
 describe('EOA Message Passing', () => {
   let L1Wallet: Signer
