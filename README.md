@@ -5,3 +5,6 @@ To get started:
 yarn
 yarn test
 ```
+## Model
+
+![ovm-tokens.png](./ovm-tokens.png)
